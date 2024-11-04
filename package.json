@@ -1,0 +1,27 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "assignment for arav bhivgade for backend engineering role in worksea",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Arav Bhivgade",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "prisma": "^5.21.1",
+    "redis": "^4.7.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  }
+}
